@@ -16,9 +16,30 @@
 
 <body>
   <main id="main" class="flex items-center justify-center">
-    <div id="wrapper" class="w-2/5 h-4/5 bg-red-400">
-      <div class="container"></div>
-      <div class="container"></div>
+    <div id="wrapper" class="w-4/12 h-4/5">
+      <div class="container w-full h-full flex flex-col gap-4">
+
+        <div id="top-section" class="border-2 rounded-2xl p-6 flex items-center justify-between">
+          <div id="myBalance-section" class="flex flex-col">
+            <h2 class="text-gray-100 cursor-pointer">My balance</h2>
+            <p class="text-white text-3xl font-semibold cursor-pointer">$921.48</p>
+          </div>
+          <div class="img cursor-pointer">
+            <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#382314" cx="48" cy="24" r="24" />
+                <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div id="bottom-section" class="w-full h-full rounded-2xl p-6 grid grid-rows-4 bg-white">
+          <div id="spending-detail" class="row-span-1"></div>
+          <div id="detail-chart" class="row-span-2"></div>
+          <div id="total-spending-detail" class="row-span-1"></div>
+        </div>
+      </div>
     </div>
   </main>
 

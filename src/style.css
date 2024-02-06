@@ -25,7 +25,7 @@
 
     /* Font weight */
     --WEIGHT-1: 400;
-    --WEIGHT-1: 700;
+    --WEIGHT-2: 700;
 
     /* Font weight */
     --PARAH-SIZE: 18px;
@@ -44,4 +44,16 @@ body {
     width: 100%;
     height: 100vh;
     background: var(--CREAM);
+}
+
+/* Styling top section */
+#top-section {
+    background: var(--SOFT-RED);
+    font-family: var(--PRIMARY-FONT);
+}
+
+/* Styling bottom section */
+#bottom-section {
+    background: var(--VERY-PALE-ORANGE);
+    font-family: var(--PRIMARY-FONT);
 }
