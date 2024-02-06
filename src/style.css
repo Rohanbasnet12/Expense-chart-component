@@ -1,0 +1,47 @@
+/* Links */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,600;1,9..40,700&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Roots */
+:root {
+    /* Primary font */
+    --PRIMARY-FONT: 'DM Sans', sans-serif;
+
+    /* Primary colors */
+    --SOFT-RED: hsl(10, 79%, 65%);
+    --CYAN-RED: hsl(186, 34%, 60%);
+
+    /* Neutral color */
+    --DARK-BROWN: hsl(25, 47%, 15%);
+    --MEDUIM-BROWN: hsl(28, 10%, 53%);
+    --CREAM: hsl(27, 66%, 92%);
+    --VERY-PALE-ORANGE: hsl(33, 100%, 98%);
+
+    /* Font weight */
+    --WEIGHT-1: 400;
+    --WEIGHT-1: 700;
+
+    /* Font weight */
+    --PARAH-SIZE: 18px;
+}
+
+/* CSS utils */
+
+/* General styles */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* Styling main section */
+#main {
+    width: 100%;
+    height: 100vh;
+    background: var(--CREAM);
+}
