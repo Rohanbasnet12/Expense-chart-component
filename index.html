@@ -17,7 +17,7 @@
 <body>
   <main id="main" class="flex items-center justify-center">
     <div id="wrapper" class="w-4/12 h-4/5">
-      <div class="container w-full h-full flex flex-col gap-4">
+      <div class="container w-fit h-full flex flex-col gap-4">
 
         <div id="top-section" class="border-2 rounded-2xl p-6 flex items-center justify-between">
           <div id="myBalance-section" class="flex flex-col">
@@ -35,8 +35,40 @@
         </div>
 
         <div id="bottom-section" class="w-full h-full rounded-2xl p-6 grid grid-rows-4 bg-white">
-          <div id="spending-detail" class="row-span-1"></div>
-          <div id="detail-chart" class="row-span-2"></div>
+          <div id="spending-detail" class="row-span-1">
+            <h1 class="text-3xl font-semibold text-yellow-900">Spending - Last 7 days</h1>
+          </div>
+          <div id="detail-chart" class="row-span-2 flex gap-3 items-end justify-center border-b-2">
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">mon</p>
+            </div>
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">tue</p>
+            </div>
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">wed</p>
+            </div>
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">thu</p>
+            </div>
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">fri</p>
+            </div>
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">sat</p>
+            </div>
+            <div class="box">
+              <div class="bar bg-red-300"></div>
+              <p class="text-center text-sm text-gray-400">sun</p>
+            </div>
+
+          </div>
           <div id="total-spending-detail" class="row-span-1"></div>
         </div>
       </div>

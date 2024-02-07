@@ -32,6 +32,16 @@
 }
 
 /* CSS utils */
+.bar {
+    width: 48px;
+    border-radius: .3em;
+    background: var(--SOFT-RED);
+    cursor: pointer;
+}
+
+.bar:hover {
+    opacity: .8;
+}
 
 /* General styles */
 html,
@@ -52,8 +62,55 @@ body {
     font-family: var(--PRIMARY-FONT);
 }
 
+.img svg:hover {
+    animation: rotate 1.42s forwards;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* Styling bottom section */
 #bottom-section {
     background: var(--VERY-PALE-ORANGE);
     font-family: var(--PRIMARY-FONT);
+}
+
+.box:first-child>.bar {
+    height: 52px;
+}
+
+.box:nth-child(2)>.bar {
+    height: 98px;
+}
+
+.box:nth-child(3)>.bar {
+    height: 139px;
+    background: var(--CYAN-RED);
+}
+
+.box:nth-child(3)>.bar:hover {
+    opacity: .8;
+}
+
+.box:nth-child(4)>.bar {
+    height: 82px;
+}
+
+.box:nth-child(5)>.bar {
+    height: 60px;
+}
+
+.box:nth-child(6)>.bar {
+    height: 108px;
+}
+
+.box:nth-child(7)>.bar {
+    height: 73px;
 }
