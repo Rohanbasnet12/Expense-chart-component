@@ -1,0 +1,19 @@
+@media (max-width:560px) {
+    .container {
+        width: 90vw;
+    }
+
+    .bar {
+        width: 8vw;
+    }
+
+    .graph-label {
+        width: 27px;
+    }
+}
+
+@media (max-width:360px) {
+    #detail-chart {
+        gap: .2em;
+    }
+}

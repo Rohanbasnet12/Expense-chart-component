@@ -16,10 +16,10 @@
 
 <body>
   <main id="main" class="flex items-center justify-center">
-    <div id="wrapper" class="w-4/12 h-4/5">
+    <div id="wrapper" class="w-sm h-4/5">
       <div class="container w-fit h-full flex flex-col gap-4">
 
-        <div id="top-section" class="border-2 rounded-2xl p-6 flex items-center justify-between">
+        <div id="top-section" class="rounded-2xl p-6 flex items-center justify-between">
           <div id="myBalance-section" class="flex flex-col">
             <h2 class="text-gray-100 cursor-pointer">My balance</h2>
             <p class="text-white text-3xl font-semibold cursor-pointer">$921.48</p>
@@ -34,42 +34,72 @@
           </div>
         </div>
 
-        <div id="bottom-section" class="w-full h-full rounded-2xl p-6 grid grid-rows-4 bg-white">
+        <div id="bottom-section" class="w-full h-full rounded-2xl p-6 grid grid-rows-5 bg-white">
           <div id="spending-detail" class="row-span-1">
             <h1 class="text-3xl font-semibold text-yellow-900">Spending - Last 7 days</h1>
           </div>
-          <div id="detail-chart" class="row-span-2 flex gap-3 items-end justify-center border-b-2">
-            <div class="box">
+          <div id="detail-chart" class="row-span-3 flex gap-3 items-end justify-center border-b-2 pb-4">
+            <div class="box box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$17.54</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">mon</p>
             </div>
-            <div class="box">
+            <div class="box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$34.91</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">tue</p>
             </div>
-            <div class="box">
+            <div class="box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$52.36</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">wed</p>
             </div>
-            <div class="box">
+            <div class="box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$31.07</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">thu</p>
             </div>
-            <div class="box">
+            <div class="box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$23.39</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">fri</p>
             </div>
-            <div class="box">
+            <div class="box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$43.28</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">sat</p>
             </div>
-            <div class="box">
+            <div class="box flex flex-col items-center gap-1 justify-between">
+              <div class="graph-label rounded-sm flex items-center justify-center opacity-0">
+                <p class="text-white text-md">$25.48</p>
+              </div>
               <div class="bar bg-red-300"></div>
               <p class="text-center text-sm text-gray-400">sun</p>
             </div>
 
           </div>
-          <div id="total-spending-detail" class="row-span-1"></div>
+          <div id="total-spending-detail" class="row-span-2 flex justify-between items-end">
+            <div class="left-info">
+              <p class="text-sm font-semibold text-gray-400">Total this month</p>
+              <h1 class="text-3xl font-bold text-yellow-900">$478.33</h1>
+            </div>
+            <div class="right-info">
+              <p class="text-sm font-bold text-yellow-900">+2.4%</p>
+              <p class="text-sm text-gray-400">from last month</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
