@@ -32,11 +32,21 @@
 }
 
 /* CSS utils */
+.box {
+    overflow: hidden;
+}
+
 .bar {
     width: 48px;
     border-radius: .3em;
     background: var(--SOFT-RED);
     cursor: pointer;
+    transition: all .4s ease-out;
+    transform: translateY(150%);
+}
+
+.loadBar {
+    transform: translateY(0);
 }
 
 .bar:hover {
